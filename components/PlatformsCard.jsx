@@ -23,7 +23,7 @@ function CopyIcon() {
 
 function CheckIcon() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="#1d4ed8" strokeWidth="2.5" className="w-3.5 h-3.5">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2.5" className="w-3.5 h-3.5">
       <polyline points="20 6 9 17 4 12" />
     </svg>
   );
@@ -54,9 +54,9 @@ export default function PlatformsCard() {
     <div className="px-3 pt-3 pb-1">
       <div
         className="rounded-xl px-3 py-2.5 shadow-sm"
-        style={{ background: '#ffffff', border: '1px solid #d1d5db' }}
+        style={{ background: '#ffffff', border: '1px solid #e5dcc8' }}
       >
-        <p className="text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: '#6b7280' }}>
+        <p className="text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: '#8a7f6a' }}>
           Plateformes recommandées
         </p>
 
@@ -65,7 +65,7 @@ export default function PlatformsCard() {
             <div
               key={p.name}
               className="flex items-center gap-1.5 rounded-full px-2.5 py-1.5"
-              style={{ background: '#f3f4f6', border: '1px solid #d1d5db' }}
+              style={{ background: '#f3ede0', border: '1px solid #e5dcc8' }}
             >
               <a
                 href={p.url}
@@ -88,7 +88,7 @@ export default function PlatformsCard() {
                     type="button"
                     onClick={() => handleCopy(p.code, p.name)}
                     className="transition-colors ml-0.5"
-                    style={{ color: copiedName === p.name ? '#1d4ed8' : '#6b7280' }}
+                    style={{ color: copiedName === p.name ? '#16a34a' : '#8a7f6a' }}
                     title={`Copier le code ${p.code}`}
                     aria-label={`Copier le code ${p.code}`}
                   >
@@ -100,8 +100,8 @@ export default function PlatformsCard() {
           ))}
         </div>
 
-        <div className="flex items-center gap-2 pt-2" style={{ borderTop: '1px solid #e5e7eb' }}>
-          <span className="text-xs" style={{ color: '#6b7280' }}>
+        <div className="flex items-center gap-2 pt-2" style={{ borderTop: '1px solid #e5dcc8' }}>
+          <span className="text-xs" style={{ color: '#8a7f6a' }}>
             Retrouve-moi sur
           </span>
           <a

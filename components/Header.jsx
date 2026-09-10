@@ -40,8 +40,8 @@ export default function Header() {
     <header
       className="shrink-0 flex items-center gap-3 px-4 py-3 z-10 relative shadow-lg"
       style={{
-        background: '#f9fafb',
-        borderBottom: '1px solid #d1d5db',
+        background: '#fdfaf2',
+        borderBottom: '1px solid #e5dcc8',
       }}
     >
       {/* Avatar */}
@@ -50,7 +50,7 @@ export default function Header() {
           src={PROFILE_IMAGE}
           alt={ASSISTANT_NAME}
           className="w-11 h-11 rounded-full object-cover"
-          style={{ border: '2px solid #1d4ed8' }}
+          style={{ border: '2px solid #16a34a' }}
           onError={(e) => {
             e.target.onerror = null;
             e.target.src =
@@ -59,7 +59,7 @@ export default function Header() {
         />
         <span
           className="absolute bottom-0 right-0 w-3 h-3 rounded-full"
-          style={{ background: '#22c55e', outline: '2px solid #f9fafb' }}
+          style={{ background: '#22c55e', outline: '2px solid #fdfaf2' }}
         />
       </div>
 
@@ -79,7 +79,7 @@ export default function Header() {
         type="button"
         onClick={() => setMenuOpen((v) => !v)}
         className="shrink-0 flex items-center justify-center w-9 h-9 rounded-xl transition-colors"
-        style={{ color: '#1d4ed8', background: menuOpen ? 'rgba(29,78,216,0.1)' : 'transparent' }}
+        style={{ color: '#16a34a', background: menuOpen ? 'rgba(22,163,74,0.1)' : 'transparent' }}
         aria-label="Menu"
       >
         {menuOpen ? <CloseIcon /> : <BurgerIcon />}
@@ -89,17 +89,17 @@ export default function Header() {
       {menuOpen && (
         <div
           className="absolute top-full right-3 mt-2 w-52 rounded-xl overflow-hidden z-50 shadow-xl"
-          style={{ background: '#ffffff', border: '1px solid #d1d5db' }}
+          style={{ background: '#ffffff', border: '1px solid #e5dcc8' }}
         >
           <button
             type="button"
             onClick={() => { setMenuOpen(false); router.push('/admin'); }}
             className="flex items-center gap-3 w-full px-4 py-3 text-sm text-left transition-colors"
             style={{ color: '#111827' }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = '#f3f4f6'; }}
+            onMouseEnter={(e) => { e.currentTarget.style.background = '#f3ede0'; }}
             onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; }}
           >
-            <span style={{ color: '#1d4ed8' }}><LockIcon /></span>{' '}Connexion Admin
+            <span style={{ color: '#16a34a' }}><LockIcon /></span>{' '}Connexion Admin
           </button>
         </div>
       )}

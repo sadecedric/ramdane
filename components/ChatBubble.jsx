@@ -32,13 +32,13 @@ export default function ChatBubble({ sender, text, children }) {
       <div
         className="max-w-[80%] px-4 py-2.5 rounded-2xl text-sm shadow-sm leading-relaxed"
         style={isUser ? {
-          background: 'linear-gradient(135deg, #1e3a8a, #1d4ed8)',
+          background: 'linear-gradient(135deg, #15803d, #16a34a)',
           color: '#ffffff',
           borderBottomRightRadius: '4px',
         } : {
           background: '#ffffff',
-          color: '#1f2937',
-          border: '1px solid #d1d5db',
+          color: '#292420',
+          border: '1px solid #e5dcc8',
           borderBottomLeftRadius: '4px',
         }}
       >

@@ -42,14 +42,14 @@ export default function ChatInput({ onSend, disabled }) {
         style={{
           background: '#ffffff',
           color: '#111827',
-          border: '1px solid #d1d5db',
+          border: '1px solid #e5dcc8',
         }}
         onFocus={(e) => {
-          e.target.style.borderColor = '#1d4ed8';
-          e.target.style.boxShadow = '0 0 0 2px rgba(29,78,216,0.2)';
+          e.target.style.borderColor = '#16a34a';
+          e.target.style.boxShadow = '0 0 0 2px rgba(22,163,74,0.2)';
         }}
         onBlur={(e) => {
-          e.target.style.borderColor = '#d1d5db';
+          e.target.style.borderColor = '#e5dcc8';
           e.target.style.boxShadow = 'none';
         }}
         autoComplete="off"
@@ -58,7 +58,7 @@ export default function ChatInput({ onSend, disabled }) {
         type="submit"
         disabled={!canSend}
         className="shrink-0 w-10 h-10 text-white rounded-full flex items-center justify-center transition-colors shadow"
-        style={{ background: canSend ? '#1d4ed8' : '#9ca3af', cursor: canSend ? 'pointer' : 'not-allowed' }}
+        style={{ background: canSend ? '#16a34a' : '#a89f8c', cursor: canSend ? 'pointer' : 'not-allowed' }}
         aria-label="Envoyer"
       >
         <SendIcon />

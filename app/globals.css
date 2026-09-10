@@ -3,8 +3,8 @@
 html, body {
   height: 100%;
   margin: 0;
-  background: #e5e7eb;
-  color: #1f2937;
+  background: #f7f2e7;
+  color: #292420;
 }
 
 /* ── Markdown ─────────────────────────────────────────────────────────────── */
@@ -13,13 +13,13 @@ html, body {
 .markdown > *:last-child  { margin-bottom: 0; }
 .markdown p               { margin-bottom: 0.5rem; }
 .markdown p:last-child    { margin-bottom: 0; }
-.markdown strong          { font-weight: 700; color: #1d4ed8; }
+.markdown strong          { font-weight: 700; color: #15803d; }
 .markdown ul   { list-style: disc;    margin-left: 1.25rem; margin-bottom: 0.5rem; }
 .markdown ol   { list-style: decimal; margin-left: 1.25rem; margin-bottom: 0.5rem; }
 .markdown li   { margin-bottom: 0.25rem; line-height: 1.5; }
 .markdown li:last-child { margin-bottom: 0; }
-.markdown a       { color: #1d4ed8; text-decoration: underline; text-underline-offset: 2px; word-break: break-all; }
-.markdown a:hover { color: #2563eb; }
+.markdown a       { color: #15803d; text-decoration: underline; text-underline-offset: 2px; word-break: break-all; }
+.markdown a:hover { color: #16a34a; }
 
 /* ── Shimmer animation ────────────────────────────────────────────────────── */
 @keyframes shimmer {
@@ -27,7 +27,7 @@ html, body {
   100% { background-position:  200% center; }
 }
 .shimmer {
-  background: linear-gradient(90deg, #9ca3af, #1d4ed8, #d97706, #1d4ed8, #9ca3af);
+  background: linear-gradient(90deg, #a89f8c, #16a34a, #d97706, #16a34a, #a89f8c);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

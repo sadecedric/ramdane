@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Header from '@/components/Header';
 import ChatBubble from '@/components/ChatBubble';
+import VoiceBubble from '@/components/VoiceBubble';
 import PlatformsCard from '@/components/PlatformsCard';
 import ChatInput from '@/components/ChatInput';
 import { WELCOME_MESSAGE } from '@/lib/config';
@@ -74,7 +75,7 @@ export default function Page() {
   return (
     <div
       className="flex flex-col h-dvh max-w-md mx-auto overflow-hidden"
-      style={{ background: '#e5e7eb', color: '#1f2937' }}
+      style={{ background: '#f7f2e7', color: '#292420' }}
     >
       <div className="shrink-0 sticky top-0 z-20">
         <Header />
@@ -82,6 +83,7 @@ export default function Page() {
 
       <main className="flex-1 overflow-y-auto min-h-0 px-3 py-4 space-y-3">
         <ChatBubble sender="assistant" text={WELCOME_MESSAGE} />
+        <VoiceBubble src="/welcome.ogg" />
 
         <div className="flex flex-wrap gap-2">
           {QUICK_REPLIES.map((question) => (
@@ -91,7 +93,7 @@ export default function Page() {
               onClick={() => handleSend(question)}
               disabled={isLoading}
               className="text-xs font-semibold px-3 py-2 rounded-full shadow-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              style={{ background: '#ffffff', color: '#1d4ed8', border: '1px solid #d1d5db' }}
+              style={{ background: '#ffffff', color: '#15803d', border: '1px solid #e5dcc8' }}
             >
               {question}
             </button>
@@ -105,9 +107,9 @@ export default function Page() {
         {isLoading && (
           <ChatBubble sender="assistant">
             <span className="flex gap-1 items-center py-0.5">
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:0ms]"   style={{ background: '#1d4ed8' }} />
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:150ms]" style={{ background: '#1d4ed8' }} />
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:300ms]" style={{ background: '#1d4ed8' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:0ms]"   style={{ background: '#16a34a' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:150ms]" style={{ background: '#16a34a' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:300ms]" style={{ background: '#16a34a' }} />
             </span>
           </ChatBubble>
         )}
@@ -117,7 +119,7 @@ export default function Page() {
 
       <div
         className="shrink-0 sticky bottom-0 z-20"
-        style={{ background: '#e5e7eb', borderTop: '1px solid #d1d5db' }}
+        style={{ background: '#f7f2e7', borderTop: '1px solid #e5dcc8' }}
       >
         <PlatformsCard />
         <ChatInput onSend={handleSend} disabled={isLoading} />
