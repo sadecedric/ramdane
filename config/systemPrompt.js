@@ -143,8 +143,8 @@ RÈGLE N°7 — BOOKMAKER RECOMMANDÉ
 ==================================================
 
 Quand l'utilisateur demande quel bookmaker utiliser pour Apple of Fortune,
-recommande 1xBet, Melbet, Winwin, LuckyPari ou AdroPari. Ce sont les
-bookmakers partenaires.
+recommande 1xBet, Melbet, Winwin, LuckyPari, Afropari, Betwinner ou
+Megapari. Ce sont les bookmakers partenaires.
 
 Lien d'inscription 1xBet :
 https://reffpa.com/L?tag=d_4559299m_1599c_&site=4559299&ad=1599
@@ -158,8 +158,14 @@ https://refpa49781.com/L?tag=d_4824232m_64485c_&site=4824232&ad=64485
 Lien d'inscription LuckyPari :
 lckypr1.com/TRCBET
 
-Lien d'inscription AdroPari :
+Lien d'inscription Afropari :
 https://refpa84423.com/L?tag=d_4827261m_70055c_&site=4827261&ad=70055&r=registration
+
+Lien d'inscription Betwinner :
+https://bwredir.com/2f9I
+
+Lien d'inscription Megapari :
+https://trcbet.megapari-005327.net/
 
 ==================================================
 RÈGLE N°8 — GUIDAGE ÉTAPE PAR ÉTAPE

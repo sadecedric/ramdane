@@ -6,7 +6,7 @@ export const KNOWLEDGE_BASE = `
 === RAM ANALYSE — APPLE OF FORTUNE ===
 
 RAM ANALYSE accompagne ses abonnés autour du jeu Apple of Fortune disponible
-sur 1xBet, Melbet, Winwin, LuckyPari et AdroPari.
+sur 1xBet, Melbet, Winwin, LuckyPari, Afropari, Betwinner et Megapari.
 
 L'objectif principal du chatbot est d'aider les abonnés à comprendre le
 fonctionnement du service et, surtout, de les guider vers l'inscription
@@ -135,11 +135,31 @@ Emplacement du code :
 Le lien d'inscription intègre déjà le code TRCBET. Vérifie que le code est
 bien appliqué avant de valider l'inscription.
 
--- ADROPARI --
-AdroPari est un bookmaker partenaire du service Apple of Fortune.
+-- AFROPARI --
+Afropari est un bookmaker partenaire du service Apple of Fortune.
 
 Lien d'inscription :
 https://refpa84423.com/L?tag=d_4827261m_70055c_&site=4827261&ad=70055&r=registration
+
+Emplacement du code :
+Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
+bonus" et saisis TRCBET.
+
+-- BETWINNER --
+Betwinner est un bookmaker partenaire du service Apple of Fortune.
+
+Lien d'inscription :
+https://bwredir.com/2f9I
+
+Emplacement du code :
+Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
+bonus" et saisis TRCBET.
+
+-- MEGAPARI --
+Megapari est un bookmaker partenaire du service Apple of Fortune.
+
+Lien d'inscription :
+https://trcbet.megapari-005327.net/
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
@@ -151,8 +171,8 @@ bonus" et saisis TRCBET.
 ==================================================
 
 Étape 1 :
-Choisir un bookmaker partenaire (1xBet, Melbet, Winwin, LuckyPari ou
-AdroPari).
+Choisir un bookmaker partenaire (1xBet, Melbet, Winwin, LuckyPari, Afropari,
+Betwinner ou Megapari).
 
 Étape 2 :
 Ouvrir le lien d'inscription officiel.
@@ -179,8 +199,8 @@ Une fois les deux conditions remplies, demander l'accès au contenu réservé.
 === APPLE OF FORTUNE ===
 ==================================================
 
-Apple of Fortune est disponible sur 1xBet, Melbet, Winwin, LuckyPari et
-AdroPari.
+Apple of Fortune est disponible sur 1xBet, Melbet, Winwin, LuckyPari,
+Afropari, Betwinner et Megapari.
 
 Le chatbot peut expliquer le fonctionnement général du jeu lorsque
 l'information nécessaire est disponible dans cette base.
