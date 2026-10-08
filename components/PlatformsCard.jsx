@@ -29,6 +29,20 @@ function CheckIcon() {
   );
 }
 
+function ChevronIcon({ open }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      className={`h-4 w-4 transition-transform ${open ? 'rotate-180' : ''}`}
+    >
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  );
+}
+
 function WhatsAppIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5" style={{ color: '#22c55e' }}>
@@ -38,13 +52,16 @@ function WhatsAppIcon() {
 }
 
 export default function PlatformsCard() {
-  const [copiedName, setCopiedName] = useState(null);
+  const [isOpen, setIsOpen] = useState(true);
+  const [copied, setCopied] = useState(false);
+  const promoCode = PLATFORMS.find((platform) => platform.code)?.code;
 
-  const handleCopy = async (code, name) => {
+  const handleCopy = async () => {
+    if (!promoCode) return;
     try {
-      await navigator.clipboard.writeText(code);
-      setCopiedName(name);
-      setTimeout(() => setCopiedName(null), 1500);
+      await navigator.clipboard.writeText(promoCode);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
     } catch {
       // Clipboard unavailable
     }
@@ -56,65 +73,78 @@ export default function PlatformsCard() {
         className="rounded-xl px-3 py-2.5 shadow-sm"
         style={{ background: '#ffffff', border: '1px solid #e5dcc8' }}
       >
-        <p className="text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: '#8a7f6a' }}>
-          Plateformes recommandées
-        </p>
+        <button
+          type="button"
+          onClick={() => setIsOpen((open) => !open)}
+          className="flex w-full items-center justify-between gap-3 text-left"
+          aria-expanded={isOpen}
+          aria-controls="recommended-platforms"
+        >
+          <span className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#8a7f6a' }}>
+            Plateformes recommandées
+          </span>
+          <span className="flex items-center gap-1 text-[10px] font-semibold" style={{ color: '#15803d' }}>
+            {isOpen ? 'Masquer' : 'Afficher'}
+            <ChevronIcon open={isOpen} />
+          </span>
+        </button>
 
-        <div className="flex flex-wrap gap-2 mb-3">
-          {PLATFORMS.map((p) => (
-            <div
-              key={p.name}
-              className="flex items-center gap-1.5 rounded-full px-2.5 py-1.5"
-              style={{ background: '#f3ede0', border: '1px solid #e5dcc8' }}
-            >
-              <a
-                href={p.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1 text-xs font-semibold transition-colors"
-                style={{ color: '#111827' }}
-                title={`Rejoindre ${p.name}`}
+        {isOpen && (
+          <div id="recommended-platforms" className="mt-2">
+            {promoCode && (
+              <div
+                className="mb-2 flex items-center justify-between rounded-xl px-3 py-2"
+                style={{ background: '#fff7df', border: '1px solid #ead59e' }}
               >
-                <ExternalLinkIcon />
-                {p.name}
-              </a>
-
-              {p.code && (
-                <>
-                  <span className="text-xs font-mono font-bold" style={{ color: '#b45309' }}>
-                    {p.code}
-                  </span>
+                <span className="text-[11px] font-semibold" style={{ color: '#8a6418' }}>Code promo commun</span>
+                <div className="flex items-center gap-2">
+                  <span className="font-mono text-sm font-extrabold" style={{ color: '#b45309' }}>{promoCode}</span>
                   <button
                     type="button"
-                    onClick={() => handleCopy(p.code, p.name)}
-                    className="transition-colors ml-0.5"
-                    style={{ color: copiedName === p.name ? '#16a34a' : '#8a7f6a' }}
-                    title={`Copier le code ${p.code}`}
-                    aria-label={`Copier le code ${p.code}`}
+                    onClick={handleCopy}
+                    className="rounded-md p-1 transition-colors"
+                    style={{ color: copied ? '#16a34a' : '#8a7f6a' }}
+                    title={`Copier le code ${promoCode}`}
+                    aria-label={`Copier le code ${promoCode}`}
                   >
-                    {copiedName === p.name ? <CheckIcon /> : <CopyIcon />}
+                    {copied ? <CheckIcon /> : <CopyIcon />}
                   </button>
-                </>
-              )}
-            </div>
-          ))}
-        </div>
+                </div>
+              </div>
+            )}
 
-        <div className="flex items-center gap-2 pt-2" style={{ borderTop: '1px solid #e5dcc8' }}>
-          <span className="text-xs" style={{ color: '#8a7f6a' }}>
-            Retrouve-moi sur
-          </span>
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:opacity-75 transition-opacity"
-            title="WhatsApp"
-            aria-label="Contact WhatsApp"
-          >
-            <WhatsAppIcon />
-          </a>
-        </div>
+            <div className="grid grid-cols-2 gap-2 mb-3">
+              {PLATFORMS.map((p) => (
+                <a
+                  key={p.name}
+                  href={p.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex min-w-0 items-center gap-1.5 rounded-xl px-2.5 py-2 text-xs font-bold transition-colors"
+                  style={{ color: '#111827', background: '#f3ede0', border: '1px solid #e5dcc8' }}
+                  title={`Rejoindre ${p.name}`}
+                >
+                  <ExternalLinkIcon />
+                  <span className="truncate">{p.name}</span>
+                </a>
+              ))}
+            </div>
+
+            <div className="flex items-center gap-2 pt-2" style={{ borderTop: '1px solid #e5dcc8' }}>
+              <span className="text-xs" style={{ color: '#8a7f6a' }}>Retrouve-moi sur</span>
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-75 transition-opacity"
+                title="WhatsApp"
+                aria-label="Contact WhatsApp"
+              >
+                <WhatsAppIcon />
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

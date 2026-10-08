@@ -68,7 +68,8 @@ export default function Page() {
   };
 
   const QUICK_REPLIES = [
-    'Comment gagner à Apple of Fortune ?',
+    'Comment gagner à Apple Fortune ?',
+    'Comment gagner au jeu des deux dés ?',
     "Comment s'inscrire ?",
   ];
 
