@@ -6,11 +6,9 @@ import { PLATFORMS, WHATSAPP_URL } from '@/lib/config';
 const BRANDS = {
   '1XBET':     { bg: '#0b4ea2', fg: '#ffffff', short: '1X' },
   'MELBET':    { bg: '#ffc800', fg: '#1a1a1a', short: 'M' },
-  'WINWIN':    { bg: '#e11d48', fg: '#ffffff', short: 'W' },
-  'LUCKYPARI': { bg: '#7c3aed', fg: '#ffffff', short: 'L' },
-  'AFROPARI':  { bg: '#059669', fg: '#ffffff', short: 'A' },
   'BETWINNER': { bg: '#111827', fg: '#ffd400', short: 'B' },
-  'MEGAPARI':  { bg: '#ea580c', fg: '#ffffff', short: 'MP' },
+  'PARIPESA':  { bg: '#e11d48', fg: '#ffffff', short: 'P' },
+  'WINWIN':    { bg: '#0ea5e9', fg: '#ffffff', short: 'W' },
 };
 
 function CopyIcon() {

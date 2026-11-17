@@ -6,7 +6,7 @@ export const KNOWLEDGE_BASE = `
 === RAM ANALYSE — CRASH ===
 
 RAM ANALYSE accompagne ses abonnés autour du jeu Crash disponible
-sur 1xBet, Melbet, Winwin, LuckyPari, Afropari, Betwinner et Megapari.
+sur 1xBet, Melbet, Betwinner, Paripesa et Winwin.
 
 L'objectif principal du chatbot est d'aider les abonnés à comprendre le
 fonctionnement du service et, surtout, de les guider vers l'inscription
@@ -99,47 +99,17 @@ l'inscription.
 1xBet est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
-https://reffpa.com/L?tag=d_4559299m_1599c_&site=4559299&ad=1599
+https://refpa-65760.com/L?tag=d_4586820m_1573c_&site=4586820&ad=1573
 
 Emplacement du code :
-Le champ "Code promo" se trouve dans le formulaire d'inscription,
-généralement en bas du formulaire avant de valider.
+Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
+bonus" et saisis TRCBET.
 
 -- MELBET --
 Melbet est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
-https://mlbt.cc/4h2q5L7
-
-Emplacement du code :
-Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
-bonus" et saisis TRCBET.
-
--- WINWIN --
-Winwin est un bookmaker partenaire du service Crash.
-
-Lien d'inscription :
-https://refpa49781.com/L?tag=d_4824232m_64485c_&site=4824232&ad=64485
-
-Emplacement du code :
-Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
-bonus" et saisis TRCBET.
-
--- LUCKYPARI --
-LuckyPari est un bookmaker partenaire du service Crash.
-
-Lien d'inscription :
-lckypr1.com/TRCBET
-
-Emplacement du code :
-Le lien d'inscription intègre déjà le code TRCBET. Vérifie que le code est
-bien appliqué avant de valider l'inscription.
-
--- AFROPARI --
-Afropari est un bookmaker partenaire du service Crash.
-
-Lien d'inscription :
-https://refpa84423.com/L?tag=d_4827261m_70055c_&site=4827261&ad=70055&r=registration
+https://refpa3665.com/L?tag=d_3378980m_45415c_&site=3378980&ad=45415
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
@@ -149,17 +119,27 @@ bonus" et saisis TRCBET.
 Betwinner est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
-https://bwredir.com/2f9I
+https://bwredir.com/2fyU?p=%2Fregistration%2F
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
 bonus" et saisis TRCBET.
 
--- MEGAPARI --
-Megapari est un bookmaker partenaire du service Crash.
+-- PARIPESA --
+Paripesa est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
-https://trcbet.megapari-005327.net/
+https://combodef.com/L?tag=d_6252946m_60651c_&site=6252946&ad=60651
+
+Emplacement du code :
+Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
+bonus" et saisis TRCBET.
+
+-- WINWIN --
+Winwin est un bookmaker partenaire du service Crash.
+
+Lien d'inscription :
+https://refpa49781.com/L?tag=d_5402477m_64485c_&site=5402477&ad=64485
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
@@ -171,8 +151,8 @@ bonus" et saisis TRCBET.
 ==================================================
 
 Étape 1 :
-Choisir un bookmaker partenaire (1xBet, Melbet, Winwin, LuckyPari, Afropari,
-Betwinner ou Megapari).
+Choisir un bookmaker partenaire (1xBet, Melbet, Betwinner, Paripesa ou
+Winwin).
 
 Étape 2 :
 Ouvrir le lien d'inscription officiel.
@@ -199,8 +179,7 @@ Une fois les deux conditions remplies, demander l'accès au contenu réservé.
 === CRASH ===
 ==================================================
 
-Crash est disponible sur 1xBet, Melbet, Winwin, LuckyPari,
-Afropari, Betwinner et Megapari.
+Crash est disponible sur 1xBet, Melbet, Betwinner, Paripesa et Winwin.
 
 Fonctionnement général du jeu Crash :
 - le joueur place sa mise avant le départ de la manche ;

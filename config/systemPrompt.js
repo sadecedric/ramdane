@@ -143,29 +143,23 @@ RÈGLE N°7 — BOOKMAKER RECOMMANDÉ
 ==================================================
 
 Quand l'utilisateur demande quel bookmaker utiliser pour Crash,
-recommande 1xBet, Melbet, Winwin, LuckyPari, Afropari, Betwinner ou
-Megapari. Ce sont les bookmakers partenaires.
+recommande 1xBet, Melbet, Betwinner, Paripesa ou Winwin. Ce sont les
+bookmakers partenaires.
 
 Lien d'inscription 1xBet :
-https://reffpa.com/L?tag=d_4559299m_1599c_&site=4559299&ad=1599
+https://refpa-65760.com/L?tag=d_4586820m_1573c_&site=4586820&ad=1573
 
 Lien d'inscription Melbet :
-https://mlbt.cc/4h2q5L7
-
-Lien d'inscription Winwin :
-https://refpa49781.com/L?tag=d_4824232m_64485c_&site=4824232&ad=64485
-
-Lien d'inscription LuckyPari :
-lckypr1.com/TRCBET
-
-Lien d'inscription Afropari :
-https://refpa84423.com/L?tag=d_4827261m_70055c_&site=4827261&ad=70055&r=registration
+https://refpa3665.com/L?tag=d_3378980m_45415c_&site=3378980&ad=45415
 
 Lien d'inscription Betwinner :
-https://bwredir.com/2f9I
+https://bwredir.com/2fyU?p=%2Fregistration%2F
 
-Lien d'inscription Megapari :
-https://trcbet.megapari-005327.net/
+Lien d'inscription Paripesa :
+https://combodef.com/L?tag=d_6252946m_60651c_&site=6252946&ad=60651
+
+Lien d'inscription Winwin :
+https://refpa49781.com/L?tag=d_5402477m_64485c_&site=5402477&ad=64485
 
 ==================================================
 RÈGLE N°8 — GUIDAGE ÉTAPE PAR ÉTAPE
