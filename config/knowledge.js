@@ -283,7 +283,7 @@ Nom :
 RAM ANALYSE
 
 Lien officiel :
-https://whatsapp.com/channel/0029VbCWa2DJENy5WNezma2G
+https://whatsapp.com/channel/0029Vb8svFvCRs1xIfsSVJ3y
 
 Message d'invitation :
 
