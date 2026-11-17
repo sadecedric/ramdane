@@ -1,11 +1,11 @@
-// Base de connaissances RAM ANALYSE — Apple of Fortune
+// Base de connaissances RAM ANALYSE — Crash
 // Les informations ci-dessous sont utilisées comme référence par le chatbot.
 // Toute information absente de cette base ne doit pas être inventée.
 
 export const KNOWLEDGE_BASE = `
-=== RAM ANALYSE — APPLE OF FORTUNE ===
+=== RAM ANALYSE — CRASH ===
 
-RAM ANALYSE accompagne ses abonnés autour du jeu Apple of Fortune disponible
+RAM ANALYSE accompagne ses abonnés autour du jeu Crash disponible
 sur 1xBet, Melbet, Winwin, LuckyPari, Afropari, Betwinner et Megapari.
 
 L'objectif principal du chatbot est d'aider les abonnés à comprendre le
@@ -18,7 +18,7 @@ des informations et du contenu réservés aux abonnés concernant les
 === CONDITIONS OBLIGATOIRES D'ACCÈS AUX EXPLOITS ===
 ==================================================
 
-L'accès aux exploits d'Apple of Fortune est soumis à DEUX CONDITIONS
+L'accès aux exploits d'Crash est soumis à DEUX CONDITIONS
 OBLIGATOIRES.
 
 CONDITION 1 :
@@ -51,7 +51,7 @@ suffit.
 ==================================================
 
 Le chatbot doit toujours guider naturellement l'abonné vers l'inscription
-lorsqu'il demande comment obtenir les exploits d'Apple of Fortune.
+lorsqu'il demande comment obtenir les exploits d'Crash.
 
 Quand un abonné demande :
 - "Comment avoir les exploits ?"
@@ -59,17 +59,17 @@ Quand un abonné demande :
 - "Comment accéder aux exploits ?"
 - "Tu peux me donner un exploit ?"
 - "Comment fonctionne votre système ?"
-- "Comment obtenir les informations Apple of Fortune ?"
+- "Comment obtenir les informations Crash ?"
 
 Le chatbot doit expliquer que l'accès est réservé aux abonnés ayant rempli
 les conditions d'accès, puis guider l'utilisateur vers l'inscription.
 
 Message de référence :
 
-"Pour accéder aux exploits d'Apple of Fortune, tu dois d'abord t'inscrire
+"Pour accéder aux exploits d'Crash, tu dois d'abord t'inscrire
 avec notre code promo TRCBET, puis effectuer un premier dépôt d'au moins
 1500 FCFA (environ 3$). Les deux conditions sont obligatoires. Une fois les
-conditions remplies, tu peux bénéficier de l'accès réservé aux abonnés. 🍎🔥"
+conditions remplies, tu peux bénéficier de l'accès réservé aux abonnés. 🚀🔥"
 
 Le chatbot doit ensuite proposer d'aider l'abonné à finaliser son
 inscription.
@@ -96,7 +96,7 @@ l'inscription.
 ==================================================
 
 -- 1XBET --
-1xBet est un bookmaker partenaire du service Apple of Fortune.
+1xBet est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
 https://reffpa.com/L?tag=d_4559299m_1599c_&site=4559299&ad=1599
@@ -106,7 +106,7 @@ Le champ "Code promo" se trouve dans le formulaire d'inscription,
 généralement en bas du formulaire avant de valider.
 
 -- MELBET --
-Melbet est un bookmaker partenaire du service Apple of Fortune.
+Melbet est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
 https://mlbt.cc/4h2q5L7
@@ -116,7 +116,7 @@ Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
 bonus" et saisis TRCBET.
 
 -- WINWIN --
-Winwin est un bookmaker partenaire du service Apple of Fortune.
+Winwin est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
 https://refpa49781.com/L?tag=d_4824232m_64485c_&site=4824232&ad=64485
@@ -126,7 +126,7 @@ Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
 bonus" et saisis TRCBET.
 
 -- LUCKYPARI --
-LuckyPari est un bookmaker partenaire du service Apple of Fortune.
+LuckyPari est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
 lckypr1.com/TRCBET
@@ -136,7 +136,7 @@ Le lien d'inscription intègre déjà le code TRCBET. Vérifie que le code est
 bien appliqué avant de valider l'inscription.
 
 -- AFROPARI --
-Afropari est un bookmaker partenaire du service Apple of Fortune.
+Afropari est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
 https://refpa84423.com/L?tag=d_4827261m_70055c_&site=4827261&ad=70055&r=registration
@@ -146,7 +146,7 @@ Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
 bonus" et saisis TRCBET.
 
 -- BETWINNER --
-Betwinner est un bookmaker partenaire du service Apple of Fortune.
+Betwinner est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
 https://bwredir.com/2f9I
@@ -156,7 +156,7 @@ Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
 bonus" et saisis TRCBET.
 
 -- MEGAPARI --
-Megapari est un bookmaker partenaire du service Apple of Fortune.
+Megapari est un bookmaker partenaire du service Crash.
 
 Lien d'inscription :
 https://trcbet.megapari-005327.net/
@@ -196,18 +196,30 @@ Effectuer le premier dépôt / recharge d'au moins 1500 FCFA (environ 3$).
 Une fois les deux conditions remplies, demander l'accès au contenu réservé.
 
 ==================================================
-=== APPLE OF FORTUNE ===
+=== CRASH ===
 ==================================================
 
-Apple of Fortune est disponible sur 1xBet, Melbet, Winwin, LuckyPari,
+Crash est disponible sur 1xBet, Melbet, Winwin, LuckyPari,
 Afropari, Betwinner et Megapari.
+
+Fonctionnement général du jeu Crash :
+- le joueur place sa mise avant le départ de la manche ;
+- une courbe monte et le multiplicateur augmente progressivement
+  (x1.00, x1.50, x2.00, etc.) ;
+- le joueur doit retirer ses gains (cashout) AVANT le crash ;
+- si la courbe crashe avant le retrait, la mise est perdue ;
+- le gain correspond à la mise multipliée par le multiplicateur au moment
+  du retrait.
+
+Le point de crash est déterminé par le jeu et n'est pas prévisible avec
+certitude.
 
 Le chatbot peut expliquer le fonctionnement général du jeu lorsque
 l'information nécessaire est disponible dans cette base.
 
 Le chatbot ne doit pas inventer :
 - le résultat d'une manche ;
-- la position réelle d'une pomme ;
+- le point de crash exact d'une manche ;
 - un exploit non documenté ;
 - un multiplicateur précis absent des informations fournies ;
 - une méthode de gain garantie.
@@ -275,7 +287,7 @@ En cas de problème de retrait ou de KYC :
 === JEU RESPONSABLE ===
 ==================================================
 
-Apple of Fortune est un jeu d'argent.
+Crash est un jeu d'argent.
 
 Le chatbot ne doit jamais garantir un gain.
 
@@ -299,7 +311,7 @@ Message d'invitation :
 "Pour accéder au contenu et aux informations réservées de RAM ANALYSE,
 inscris-toi avec le code TRCBET et effectue un premier dépôt d'au moins
 1500 FCFA (environ 3$). Une fois les conditions remplies, tu obtiens l'accès
-réservé. 🍎🔥"
+réservé. 🚀🔥"
 
 ==================================================
 === RÈGLE DE FIABILITÉ ===
@@ -319,7 +331,7 @@ l'inscription et te guider étape par étape."
 === RÈGLE MÉTIER PRINCIPALE ===
 ==================================================
 
-Quand un utilisateur veut accéder aux exploits d'Apple of Fortune :
+Quand un utilisateur veut accéder aux exploits d'Crash :
 
 1. Identifier qu'il veut accéder aux exploits.
 2. Rappeler les deux conditions.

@@ -1,10 +1,10 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'RAM ANALYSE — Apple of Fortune',
-  description: 'Assistant Apple of Fortune — RAM ANALYSE',
+  title: 'RAM ANALYSE — Crash',
+  description: 'Assistant Crash — RAM ANALYSE',
   icons: {
-    icon: '/apple.png',
+    icon: '/crash.png',
   },
 };
 

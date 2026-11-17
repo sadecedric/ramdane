@@ -68,8 +68,8 @@ export default function Page() {
   };
 
   const QUICK_REPLIES = [
-    'Comment gagner à Apple Fortune ?',
-    'Comment gagner au jeu des deux dés ?',
+    'Comment gagner au Crash ?',
+    'Comment avoir les failles du Crash ?',
     "Comment s'inscrire ?",
   ];
 
