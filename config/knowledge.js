@@ -1,11 +1,11 @@
-// Base de connaissances RAM ANALYSE — Crash
+// Base de connaissances Mr HB analyse — Crash
 // Les informations ci-dessous sont utilisées comme référence par le chatbot.
 // Toute information absente de cette base ne doit pas être inventée.
 
 export const KNOWLEDGE_BASE = `
-=== RAM ANALYSE — CRASH ===
+=== Mr HB analyse — CRASH ===
 
-RAM ANALYSE accompagne ses abonnés autour du jeu Crash disponible
+Mr HB analyse accompagne ses abonnés autour du jeu Crash disponible
 sur 1xBet, Melbet, Betwinner, Paripesa et Winwin.
 
 L'objectif principal du chatbot est d'aider les abonnés à comprendre le
@@ -24,7 +24,7 @@ OBLIGATOIRES.
 CONDITION 1 :
 L'abonné doit créer son compte bookmaker en utilisant le code promo :
 
-TRCBET
+HSB17
 
 CONDITION 2 :
 L'abonné doit effectuer un PREMIER DÉPÔT / première recharge d'au moins :
@@ -35,9 +35,9 @@ Les deux conditions sont CUMULATIVES.
 
 Cela signifie :
 
-- Inscription avec TRCBET + dépôt d'au moins 3$ / 1500 FCFA = conditions remplies.
-- Inscription sans utiliser TRCBET = conditions non remplies.
-- Dépôt de 3$ / 1500 FCFA sans inscription avec TRCBET = conditions non remplies.
+- Inscription avec HSB17 + dépôt d'au moins 3$ / 1500 FCFA = conditions remplies.
+- Inscription sans utiliser HSB17 = conditions non remplies.
+- Dépôt de 3$ / 1500 FCFA sans inscription avec HSB17 = conditions non remplies.
 - Dépôt inférieur à 3$ / 1500 FCFA = conditions non remplies.
 
 Si les deux conditions ne sont pas remplies, l'abonné ne peut pas bénéficier
@@ -67,7 +67,7 @@ les conditions d'accès, puis guider l'utilisateur vers l'inscription.
 Message de référence :
 
 "Pour accéder aux exploits d'Crash, tu dois d'abord t'inscrire
-avec notre code promo TRCBET, puis effectuer un premier dépôt d'au moins
+avec notre code promo HSB17, puis effectuer un premier dépôt d'au moins
 1500 FCFA (environ 3$). Les deux conditions sont obligatoires. Une fois les
 conditions remplies, tu peux bénéficier de l'accès réservé aux abonnés. 🚀🔥"
 
@@ -80,11 +80,11 @@ inscription.
 
 Code promo officiel :
 
-TRCBET
+HSB17
 
 Le code doit être utilisé AU MOMENT DE L'INSCRIPTION.
 
-Le chatbot doit rappeler à l'abonné de vérifier que le code TRCBET est
+Le chatbot doit rappeler à l'abonné de vérifier que le code HSB17 est
 correctement saisi avant de valider l'inscription.
 
 Si le bookmaker ne permet plus d'ajouter le code après la création du
@@ -103,7 +103,7 @@ https://refpa-65760.com/L?tag=d_4586820m_1573c_&site=4586820&ad=1573
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
-bonus" et saisis TRCBET.
+bonus" et saisis HSB17.
 
 -- MELBET --
 Melbet est un bookmaker partenaire du service Crash.
@@ -113,7 +113,7 @@ https://refpa3665.com/L?tag=d_3378980m_45415c_&site=3378980&ad=45415
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
-bonus" et saisis TRCBET.
+bonus" et saisis HSB17.
 
 -- BETWINNER --
 Betwinner est un bookmaker partenaire du service Crash.
@@ -123,7 +123,7 @@ https://bwredir.com/2fyU?p=%2Fregistration%2F
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
-bonus" et saisis TRCBET.
+bonus" et saisis HSB17.
 
 -- PARIPESA --
 Paripesa est un bookmaker partenaire du service Crash.
@@ -133,7 +133,7 @@ https://combodef.com/L?tag=d_6252946m_60651c_&site=6252946&ad=60651
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
-bonus" et saisis TRCBET.
+bonus" et saisis HSB17.
 
 -- WINWIN --
 Winwin est un bookmaker partenaire du service Crash.
@@ -143,7 +143,7 @@ https://refpa49781.com/L?tag=d_5402477m_64485c_&site=5402477&ad=64485
 
 Emplacement du code :
 Dans le formulaire d'inscription, cherche le champ "Code promo" ou "Code
-bonus" et saisis TRCBET.
+bonus" et saisis HSB17.
 
 
 ==================================================
@@ -161,7 +161,7 @@ Ouvrir le lien d'inscription officiel.
 Créer le compte avec les informations demandées.
 
 Étape 4 :
-Saisir le code promo TRCBET — cette étape est obligatoire.
+Saisir le code promo HSB17 — cette étape est obligatoire.
 
 Étape 5 :
 Vérifier que le code a bien été appliqué avant de terminer l'inscription.
@@ -213,7 +213,7 @@ vérifier si la demande concerne l'accès au service.
 Le chatbot doit lui rappeler :
 
 "Les exploits sont réservés aux abonnés ayant rempli les conditions
-d'accès : inscription avec le code TRCBET + premier dépôt d'au moins
+d'accès : inscription avec le code HSB17 + premier dépôt d'au moins
 1500 FCFA (environ 3$)."
 
 Si l'utilisateur n'a pas encore rempli les conditions :
@@ -221,7 +221,7 @@ Si l'utilisateur n'a pas encore rempli les conditions :
 
 Si l'utilisateur affirme avoir rempli les conditions :
 → lui demander, si nécessaire, de confirmer :
-1. qu'il s'est inscrit avec TRCBET ;
+1. qu'il s'est inscrit avec HSB17 ;
 2. qu'il a effectué un premier dépôt d'au moins 1500 FCFA (environ 3$).
 
 Le chatbot ne doit jamais inventer une validation de compte ni confirmer
@@ -235,7 +235,7 @@ cette information.
 Si le lien ne s'ouvre pas :
 → suggérer de copier le lien et de l'ouvrir dans Google Chrome.
 
-Si le champ TRCBET n'est pas visible :
+Si le champ HSB17 n'est pas visible :
 → faire défiler le formulaire vers le bas.
 → vérifier la présence d'un champ "Code promo" ou "Code bonus".
 
@@ -276,19 +276,19 @@ Il doit rappeler, quand c'est pertinent :
 perdre. Aucun gain n'est garanti."
 
 ==================================================
-=== CHAÎNE WHATSAPP RAM ANALYSE ===
+=== CHAÎNE WHATSAPP Mr HB analyse ===
 ==================================================
 
 Nom :
-RAM ANALYSE
+Mr HB analyse
 
 Lien officiel :
 https://whatsapp.com/channel/0029Vb8svFvCRs1xIfsSVJ3y
 
 Message d'invitation :
 
-"Pour accéder au contenu et aux informations réservées de RAM ANALYSE,
-inscris-toi avec le code TRCBET et effectue un premier dépôt d'au moins
+"Pour accéder au contenu et aux informations réservées de Mr HB analyse,
+inscris-toi avec le code HSB17 et effectue un premier dépôt d'au moins
 1500 FCFA (environ 3$). Une fois les conditions remplies, tu obtiens l'accès
 réservé. 🚀🔥"
 
@@ -315,7 +315,7 @@ Quand un utilisateur veut accéder aux exploits d'Crash :
 1. Identifier qu'il veut accéder aux exploits.
 2. Rappeler les deux conditions.
 3. Souligner que les deux conditions sont obligatoires.
-4. Le guider vers l'inscription avec TRCBET.
+4. Le guider vers l'inscription avec HSB17.
 5. Rappeler le premier dépôt minimum de 1500 FCFA (environ 3$).
 6. Proposer de guider l'utilisateur étape par étape.
 

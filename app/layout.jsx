@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'RAM ANALYSE — Crash',
-  description: 'Assistant Crash — RAM ANALYSE',
+  title: 'Mr HB analyse — Crash',
+  description: 'Assistant Crash — Mr HB analyse',
   icons: {
     icon: '/crash.png',
   },

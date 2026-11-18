@@ -75,7 +75,7 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-gray-950 text-white">
       <div className="sticky top-0 z-10 flex items-center justify-between px-6 py-4 bg-gray-900 border-b border-gray-700 shadow-md">
-        <p className="font-bold text-base text-white">RAM ANALYSE — Admin</p>
+        <p className="font-bold text-base text-white">Mr HB analyse — Admin</p>
         <button
           onClick={logout}
           className="text-xs px-3 py-1.5 rounded-lg text-green-400 bg-gray-800 border border-gray-700 hover:border-green-700 transition-colors"
